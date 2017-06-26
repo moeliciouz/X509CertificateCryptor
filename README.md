@@ -4,6 +4,7 @@ You need to make your own x509 keypair (best choice for me seems openSSL).
 
 Use the following command to generate: openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365
 
+Specify script to the path you want to encrypt/decrypt.
 
 The original script was written by Ryan Ries - ryan@myotherpcisacloud.com
 
