@@ -1,6 +1,7 @@
 # X509CertificateCryptor
 A Powershell script to encrypt and decrypt files in a folder using x509 public certificate to encrypt and private key to decrypt files
-You need to make your own x509 keypair (best choice for me seems openSSL): 
+You need to make your own x509 keypair (best choice for me seems openSSL).
+
 Use the following command to generate: openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365
 
 
