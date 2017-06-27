@@ -72,5 +72,5 @@
 
 foreach( $FileToDecrypt in Get-ChildItem "D:\PSEncrypt-Decrypt\Testordner" -Recurse )
 {
-Decrypt-File -cert: "D:\PSEncrypt-Decrypt\certificate.pem"
+Decrypt-File $FileToDecrypt -cert: "D:\PSEncrypt-Decrypt\certificate.pem"
 }
