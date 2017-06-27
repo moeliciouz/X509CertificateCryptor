@@ -18,4 +18,4 @@ I just extend it to work with a chosen folder.
 
 read about x509 => http://msdn.microsoft.com/en-us/library/system.security.cryptography.x509certificates.x509certificate2.aspx
 
-REMINDER: IT DOES NOT ENCRYPT FOLDERS, AFTER ENCRYPT FILES GONNA BE NOT RECOVERABLE REMOVED, FOLDERS CAN NOT BE ENCRYPTED!!!
+REMINDER: IT DOES NOT ENCRYPT FOLDERS, AFTER ENCRYPT FILES GONNA BE NOT RECOVERABLE REMOVED!!!
