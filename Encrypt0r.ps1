@@ -51,7 +51,7 @@ Function Encrypt-File
 }    
 
 
-ForEach ($FileToEncrypt in Get-ChildItem "D:\PSEncrypt-Decrypt\Testordner")
+ForEach ($FileToEncrypt in Get-ChildItem "D:\PSEncrypt-Decrypt\Testordner" -Recurse)
 {
 Encrypt-File $FileToEncrypt -Cert: "D:\PSEncrypt-Decrypt\public.cert"
 }
